@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--Katia Lima-Lopez
+	Paylocity - Coding Challenge-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Employee Benefits Calculator</title>
+        <link rel="stylesheet" href="css/bpcalculator.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/Calculations.js"> </script>
+    </head>
+    <body>
+	<h1>Employee Benefits Package Calculator</h1>
+            
+		<p>Employee Name:
+			<input type="text" name="employeeName" id='employeeName' size="15" /> 
+		</p>
+        
+        <div id="Dependents"></div><br><!--Dependents Dynamically added here-->
+        
+        <input type='button' value='Add Dependent' id='addDependent'><br><br>
+        <input type='button' value='Remove Dependent' id='removeDependent'><br><br>
+        <input type='button' value='Calculate Deductions' id='calculateDeduction'><br><br><br>
+		
+		<p id='totalEmployeeResultMonthly'></p>
+		<p id='totalEmployeeResultYearly'></p>
+		<hr>
+		<p id='totalDependentDiscountResultMonthly'></p>
+		<p id='totalDependentDiscountResultYearly'></p>
+		<hr>
+		<p id='totalDependentResultMonthly'></p>
+		<p id='totalDependentResultYearly'></p>
+		<hr>
+		<p id='grandTotalMonthly'></p>
+		<p id='grandTotalYearly'></p>                                
+	<footer>
+		<hr><p>Katia Lima-Lopez <br> Contact information: <a href="mailto:limakati@my.dom.edu">limakati@my.dom.edu</a>.</p>
+	</footer>    
+    </body>
+</html>
