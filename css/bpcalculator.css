@@ -1,0 +1,54 @@
+body
+{
+	color: #FFFEFC;
+	 background-image: linear-gradient(to right, #f69c3d, #e66443);
+}
+
+p
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+h1
+{
+	text-align: center;
+	color: #FFFEFC;
+	font-weight: bold;
+}
+
+footer p
+{
+	text-align:center;
+	font-size: 15px;
+}
+
+#employeeName
+{
+	font-size: 18px;
+}
+
+#Dependents
+{
+	font-size: 22px;	
+	color: #FFFEFC;
+}
+#addDependent
+{
+	border-radius: 12px;
+	background-color: #F4ECE1;
+	font-size: 18px;
+}
+#removeDependent
+{
+	border-radius: 12px;
+	background-color: #F4ECE1;
+	font-size: 18px;	
+}
+
+#calculateDeduction
+{
+	border-radius: 12px;
+	background-color: #F4ECE1;
+	font-size: 18px;
+}
+
